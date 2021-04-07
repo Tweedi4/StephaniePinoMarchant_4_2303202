@@ -545,7 +545,7 @@ a[data-lightbox]:hover::before {
     height: 50px;
     margin-left: -25px;
     border-radius: 50%;
-    background: rgba(0, 0, 0, .6);
+    background: rgb(0, 0, 0);
     color: #FFF;
     font-weight: 100;
     z-index: 1;
@@ -561,6 +561,7 @@ a[data-lightbox]:hover img {
     animation-fill-mode: none;
 }
 
+/*
 #lightbox-modal {
     display: flex;
     align-items: center;
@@ -577,10 +578,12 @@ a[data-lightbox]:hover img {
     margin: 0 auto;
 }
 
+*/
+
 .lightbox-caption {
     padding: 20px;
     color: #FFF;
-    background: rgba(0, 0, 0, .5);
+    background: rgb(0, 0, 0);
     position: absolute;
     left: 15px;
     right: 15px;
@@ -594,11 +597,11 @@ a[data-lightbox]:hover img {
     top: 20px;
     right: 20px;
     z-index: 20;
-    background: rgba(0, 0, 0, .5);
+    background: rgb(0, 0, 0);
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
-    opacity: 0.3;
+    opacity: 1;
 }
 
 .close-lightbox:hover,
@@ -611,13 +614,13 @@ a[data-lightbox]:hover img {
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
-    color: rgba(255, 255, 255, .9);
-    background: rgba(0, 0, 0, .5);
+    color: white !important;
+    background: rgb(0, 0, 0);
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
     z-index: 1;
-    opacity: 0.4;
+    opacity: 1;
 }
 
 .next-lightbox {
@@ -1057,6 +1060,7 @@ blockquote footer{
         width: 180px;
         height: 320px;
     }
+
 }
 
 @media (max-width: 400px) {
